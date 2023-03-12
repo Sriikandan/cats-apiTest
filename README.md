@@ -22,13 +22,8 @@ Open Test Explorer
 
 Run the Test  
 
-Below output should get  
-
-APIValidation  
-  Tests in group: 7  
-   Total Duration: 10.1 sec  
-
-Outcomes  
-   5 Passed  
-   2 Failed  
+Below output should get    
+   
+   
+![image](https://user-images.githubusercontent.com/7232867/224576291-46ba6c92-d926-4ae3-a6e8-9f0600198694.png)
    
