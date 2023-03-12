@@ -1,3 +1,16 @@
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
 bin/
 obj/
-/Features/ValidateFactsEndpoint.feature.cs
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+#specflow
+*.feature.cs
