@@ -14,3 +14,4 @@ packages/
 
 #specflow
 *.feature.cs
+/.vs/APIValidation
