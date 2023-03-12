@@ -34,16 +34,15 @@ namespace APIValidation.StepDefinitions
             catsAPI.validateResponseCode(responseCode);
         }
 
-        [Then(@"I validate the response having all the users as below:")]
-        public void ThenIValidateTheResponseHavingAllTheUsersAsBelow(Table table)
+        [Then(@"I validate the response having all the (.*) as below")]
+        public void ThenIValidateTheResponseHavingAllTheAacecefAsBelow(string user)
         {
+            catsAPI.confirmUserResponse(user);
 
-            foreach (var row in table.Rows)
-            {
-                string user = row[0];
-                catsAPI.confirmUserResponse(user);
-            }
         }
+
+
+   
 
 
         [Then(@"I validate the response of the (.*) with user (.*) text (.*) with (.*) and (.*) match (.*)")]
