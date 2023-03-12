@@ -1,0 +1,3 @@
+bin/
+obj/
+/Features/ValidateFactsEndpoint.feature.cs
